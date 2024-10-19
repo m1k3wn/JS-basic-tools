@@ -1,7 +1,7 @@
 /* Javascript custom code snippets:
 - shift + CMD + p to bring up control palette, then search 'custom code snippets'  and select javascript
-- Paste any/all into the 'custom code snippets' javascript file on your VSCode and hit save
-- Seperate each snippet with a comma as shown, NO COMMA after last snippet
+- Paste any/all into the main { } of the 'custom code snippets' javascript file on your VSCode and hit save
+- Seperate each snippet with a comma as shown, NO COMMA after last snippet. 
 
 To use, type your set "prefix" in any javascript file and press tab,
  press tab again to through $1, $2, $3 chosen cursor-positions. $0 is final cursor position
@@ -30,7 +30,6 @@ Contained here:
     ],
     "description": "Log a value to console with final cursor placement"
 },
-
 
 // 2: console.log( x, y); -  cursor tabs to (x) > (y) > (z) position.
 "Console Log Multi": {
