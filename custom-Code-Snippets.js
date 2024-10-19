@@ -1,29 +1,28 @@
 /* Javascript custom code snippets:
-Paste any/all into 'custom code snippets' into the javascript file on your VSCode and hit save
-Seperate each snippet with a comma as shown, NO COMMA after last snippet
+- shift + CMD + p to bring up control palette, then search 'custom code snippets'  and select javascript
+- Paste any/all into the 'custom code snippets' javascript file on your VSCode and hit save
+- Seperate each snippet with a comma as shown, NO COMMA after last snippet
 
 To use, type your set "prefix" in any javascript file and press tab,
  press tab again to through $1, $2, $3 chosen cursor-positions. $0 is final cursor position
 
 Syntax: 
-
 "Name of Snippet" {
     "prefix": "command you want to type to activate snippet",
     "body": [ "code you want it to type" ] ($1, $2 etc set cursor positions, $0 sets final cursor position)
     description: "brief summary of what snippet does"
 },
 
+Contained here: 
 1. Types console.log();
 2. Types console.log( , );
 3. Creates Arrow Function
 4. Creates For Lopp
 5. Creates for In Loop
 6. Creates For Of Loop
-
 */
 
 // 1: console.log(x);(y) -  cursor tabs to (x) then (y) position.
-
 "Console Log Single": {
     "prefix": "ll",
     "body": [
