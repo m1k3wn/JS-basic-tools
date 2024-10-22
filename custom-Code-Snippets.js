@@ -86,7 +86,20 @@ Contained here:
 "$0"
 ],
 "description": "For Of Loop Snippet"
-}
+},
 
 // 7 : Basic Test - 
-// will need three snippets, one for the require, one for run/skipTest, one for each check within test function
+"Test Case": {
+	"prefix": "tt>>",
+	"body": [
+    "test(\"$1\", () => {",
+    "  const testInput = $2;",
+    "  const expectedOutput = $3;",
+    "  const actualOutput = $4(testInput);",
+    "  expect(actualOutput).toBe(expectedOutput);",
+    "});",
+  "$0"
+	],
+	"description": "Additional test case"
+}
+
