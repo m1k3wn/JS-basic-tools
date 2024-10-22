@@ -1,10 +1,10 @@
 /* Javascript custom code snippets:
 - shift + CMD + p to bring up control palette, then search 'custom code snippets'  and select javascript
-- Paste any/all into the main { } of the 'custom code snippets' javascript file on your VSCode and hit save
+- Paste any/all into the main { } of the 'custom code snippets' javascript file on your VSCode
 - Seperate each snippet with a comma as shown, NO COMMA after last snippet. 
 
 To use, type your set "prefix" in any javascript file and press tab,
- press tab again to through $1, $2, $3 chosen cursor-positions. $0 is final cursor position
+ press tab again to cycle through your $1, $2, $3 etc chosen cursor-positions. $0 sets final cursor position
 
 Syntax: 
 "Name of Snippet" {
